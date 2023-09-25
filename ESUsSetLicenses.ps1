@@ -261,8 +261,8 @@ if ($AssignLicenses) {
 break
 #Delete a license
 
-$Path = "/$subscripionid/resourceGroups/arc-demo/Providers/Microsoft.HybridCompute/licenses/ESUlicense-SQL2014"
-Invoke-AzRestMethod -Path "$($Path)?api-version=$apiversion" -Method DELETE -Verbose
+#$Path = "/$subscripionid/resourceGroups/arc-demo/Providers/Microsoft.HybridCompute/licenses/ESUlicense-SQL2014"
+#Invoke-AzRestMethod -Path "$($Path)?api-version=$apiversion" -Method DELETE -Verbose
 
 #DELETE  
 #https://management.azure.com/subscriptions/SUBSCRIPTION_ID/resourceGroups/RESOURCE_GROUP_NAME/Providers/Microsoft.HybridCompute/licenses/LICENSE_NAME?api-version=2023-06-20-preview
